@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>success</title>
+        <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static',filename='style.css') }}" /> 
+        
+    </head>
+    <body>
+        <header class="container">
+            <div>歡迎光臨，這是會員頁</div>
+        </header>
+    </br>
+        <main class ="inside">
+            <div id="form">
+                <div>{{ name }}，歡迎登入系統</div>
+                <a href = "/signout">登出系統</a>
+            </div>
+        </main>
+        
+    </body>
+</html>
