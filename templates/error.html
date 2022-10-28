@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>error</title>
+        <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static',filename='style.css') }}" /> 
+        
+    </head>
+    <body>
+        <header class="container">
+            <div>失敗頁面</div>
+        </header>
+    </br>
+        <main class ="inside">
+            <div id="form">
+                <span>{{ message }}</span>
+                <a href = "/">返回首頁</a>
+            </div>
+        </main>
+    </body>
+</html>
