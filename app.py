@@ -14,7 +14,7 @@ mydb = mysql.connector.connect(
         port = 3306,
         user = "root",
         database = "db_1028",
-        password = "cycycy1018",
+        password = " ",
         charset = "utf8"
         )
 
@@ -111,4 +111,4 @@ def signout():
 
 
 
-app.run(port=4000)
+app.run(port=3000)
