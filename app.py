@@ -54,7 +54,6 @@ def signup():
             """
         data = (name, account, password)
         mycursor.execute(sql, data)
-        #查一下
         mydb.commit()
         return redirect("/")
 
